@@ -1,0 +1,175 @@
+body {
+    font-family: 'Merriweather', serif;
+    margin: auto;
+}
+
+.unorderlist{
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+
+.first-part{
+    height: 450px;
+    padding-bottom: 50px;
+}
+
+.second-part{
+    height: 450px;
+    padding-bottom: 50px;
+}
+
+.third-part{
+    height: 450px;
+    padding-bottom: 50px;
+}
+
+.last-part{
+    height: 300px;
+    padding-bottom: 50px;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width  img{
+    width: 80%;
+    
+}
+h1{
+    font-size: 50px;
+    color: #030849;
+    text-align: justify;
+}
+
+#name-color{
+    color: coral;
+}
+
+.half-width-para{
+    text-align: justify;
+    color: dimgray;
+    padding-bottom: 20px;
+}
+
+.btn-color{
+    background-image: linear-gradient(180deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.third-part{
+    background-color: #d3d3d333;
+    padding-bottom: 150px;
+}
+
+.third-part .half-width{
+    width: 20%;
+    float: left;
+   margin-left: 120px;
+    padding-left: 15px;
+}
+
+.third-part .half-width img{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 35px;
+    padding-top: 100px;
+}
+
+span{
+    color: coral; 
+}
+
+h3{
+    color: #030849;  
+}
+
+.activities{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 20px;
+    padding: 10px;
+    height: 70%;
+    background-color: white;
+    text-align: justify;
+}
+
+.third-part .half-width .half-width-para{
+    font-size: 12px;
+} 
+
+.last-part{
+    padding-top: 10%;
+
+}
+.last-part .banner{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.last-part img{
+    width: 80%;
+    
+}
+
+.top-left {
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    transform: translate(-100%, -100%);
+    
+  }
+
+  .top-left h1{
+      color: white;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 65%;
+    right: 5%;
+    transform: translate(-100%, -100%);
+    background-image: linear-gradient(180deg, lightsalmon, tomato);
+    padding: 20px 30px;
+    border-radius: 6px;
+    font-size: 20px;
+  }
+
+  .footer{
+      text-align: center;
+  }
+
+  .footer h3{
+      color: gray;
+      font-size: 20px;
+  }
+  .footer p{
+      font-size: 35px;
+      color: #140358;
+  }
+
+  .footer img{
+      width: 3%;
+      padding: 0 2% 6% 2%;
+  }
+  ul{
+      list-style-type: none;
+      float: right;
+  }
+  ul li{
+      float: left;
+      margin-right: 30px;
+      padding-right: 20px;
+  }
